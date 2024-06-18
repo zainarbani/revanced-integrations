@@ -129,7 +129,7 @@ public class SpoofClientPatch {
 
     private enum ClientType {
         // https://dumps.tadiphone.dev/dumps/oculus/eureka
-        ANDROID_VR(28, "Quest 3", "1.56.21"),
+        ANDROID_VR(28, "Pico 4", "1.57.32"),
         // 11,4 = iPhone XS Max.
         // 16,2 = iPhone 15 Pro Max.
         // Since the 15 supports AV1 hardware decoding, only spoof that device if this
