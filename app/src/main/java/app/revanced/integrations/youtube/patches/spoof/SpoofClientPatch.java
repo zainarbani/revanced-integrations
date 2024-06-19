@@ -104,7 +104,7 @@ public class SpoofClientPatch {
     /**
      * Injection point.
      */
-    public static String getUserAgent(String originalUserAgent) {
+    public static String getDefaultUserAgent(String originalUserAgent) {
         if (SPOOF_CLIENT_ENABLED && SPOOF_CLIENT_TYPE == ClientType.IOS) {
             String iosUserAgent = "com.google.ios.youtube/"
                     + Utils.getAppVersionName()
