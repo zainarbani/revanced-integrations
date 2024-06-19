@@ -20,6 +20,13 @@ public class SpoofClientPatch {
     private static final Uri UNREACHABLE_HOST_URI = Uri.parse(UNREACHABLE_HOST_URI_STRING);
 
     /**
+     * Default IOS user agent.
+     */
+    private static final String IOS_USER_AGENT =
+            "com.google.ios.youtube/" + Utils.getAppVersionName() +
+            " (iPhone; U; CPU iPhone OS 17_5_1 like Mac OS X) gzip";
+
+    /**
      * Injection point.
      * Blocks /get_watch requests by returning an unreachable URI.
      *
@@ -106,11 +113,7 @@ public class SpoofClientPatch {
      */
     public static String getDefaultUserAgent(String originalUserAgent) {
         if (SPOOF_CLIENT_ENABLED && SPOOF_CLIENT_TYPE == ClientType.IOS) {
-            String iosUserAgent = "com.google.ios.youtube/"
-                    + Utils.getAppVersionName()
-                    + " (iPhone; U; CPU iPhone OS 17_5_1 like Mac OS X) gzip";
-            
-            return iosUserAgent;
+            return IOS_USER_AGENT;
         }
 
         return originalUserAgent;
