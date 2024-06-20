@@ -1,3 +1,10 @@
+# [1.12.0-dev.8](https://github.com/zainarbani/revanced-integrations/compare/v1.12.0-dev.7...v1.12.0-dev.8) (2024-06-20)
+
+
+### Bug Fixes
+
+* **yt:** aav ([ad53d19](https://github.com/zainarbani/revanced-integrations/commit/ad53d19428c4932c122a77c92b61e7ecb0f609ca))
+
 # [1.12.0-dev.7](https://github.com/zainarbani/revanced-integrations/compare/v1.12.0-dev.6...v1.12.0-dev.7) (2024-06-20)
 
 
