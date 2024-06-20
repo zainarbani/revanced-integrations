@@ -213,4 +213,11 @@ public class SpoofClientPatch {
     public static void testPrintSet(Set<?> mySet) {
         Logger.printDebug(() -> "testPrintSet: " + mySet);
     }
+
+    public static void testPrintObj(Object myObj) {
+        if (myObj != null) {
+            String strObj = String.valueOf(myObj);
+            Logger.printDebug(() -> "testPrintObj: " + strObj);
+        }
+    }
 }
