@@ -5,6 +5,7 @@ import android.media.MediaCodecList;
 import android.net.Uri;
 import android.os.Build;
 import app.revanced.integrations.shared.Logger;
+import app.revanced.integrations.shared.Utils;
 import app.revanced.integrations.youtube.settings.Settings;
 
 @SuppressWarnings("unused")
@@ -17,6 +18,13 @@ public class SpoofClientPatch {
      */
     private static final String UNREACHABLE_HOST_URI_STRING = "https://127.0.0.0";
     private static final Uri UNREACHABLE_HOST_URI = Uri.parse(UNREACHABLE_HOST_URI_STRING);
+
+    /**
+     * Default IOS user agent.
+     */
+    private static final String IOS_USER_AGENT =
+            "com.google.ios.youtube/" + Utils.getAppVersionName() +
+            " (iPhone; U; CPU iPhone OS 17_5_1 like Mac OS X) gzip";
 
     /**
      * Injection point.
@@ -98,6 +106,17 @@ public class SpoofClientPatch {
         }
 
         return originalClientModel;
+    }
+
+    /**
+     * Injection point.
+     */
+    public static String getDefaultUserAgent(String originalUserAgent) {
+        if (SPOOF_CLIENT_ENABLED && SPOOF_CLIENT_TYPE == ClientType.IOS) {
+            return IOS_USER_AGENT;
+        }
+
+        return originalUserAgent;
     }
 
     /**
