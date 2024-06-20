@@ -8,6 +8,8 @@ import app.revanced.integrations.shared.Logger;
 import app.revanced.integrations.shared.Utils;
 import app.revanced.integrations.youtube.settings.Settings;
 
+import java.util.Set;
+
 @SuppressWarnings("unused")
 public class SpoofClientPatch {
     private static final boolean SPOOF_CLIENT_ENABLED = Settings.SPOOF_CLIENT.get();
@@ -206,5 +208,9 @@ public class SpoofClientPatch {
 
         Logger.printDebug(() -> "Device does not support AV1 hardware decoding.");
         return false;
+    }
+    
+    public static void testPrintSet(Set<?> mySet) {
+        Logger.printDebug(() -> "testPrintSet: " + mySet);
     }
 }
