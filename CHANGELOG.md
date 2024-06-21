@@ -1,3 +1,157 @@
+# [1.12.0-dev.10](https://github.com/zainarbani/revanced-integrations/compare/v1.12.0-dev.9...v1.12.0-dev.10) (2024-06-21)
+
+
+### Bug Fixes
+
+* **yt:** aad ([390e51d](https://github.com/zainarbani/revanced-integrations/commit/390e51d5a2c63726e023c1e62f856c4562e2e388))
+
+# [1.12.0-dev.9](https://github.com/zainarbani/revanced-integrations/compare/v1.12.0-dev.8...v1.12.0-dev.9) (2024-06-20)
+
+
+### Bug Fixes
+
+* **yt:** aac8 ([47e2e19](https://github.com/zainarbani/revanced-integrations/commit/47e2e195115b97ef2a65cff1ad21494f4710e03b))
+
+# [1.12.0-dev.8](https://github.com/zainarbani/revanced-integrations/compare/v1.12.0-dev.7...v1.12.0-dev.8) (2024-06-20)
+
+
+### Bug Fixes
+
+* **yt:** aav ([ad53d19](https://github.com/zainarbani/revanced-integrations/commit/ad53d19428c4932c122a77c92b61e7ecb0f609ca))
+
+# [1.12.0-dev.7](https://github.com/zainarbani/revanced-integrations/compare/v1.12.0-dev.6...v1.12.0-dev.7) (2024-06-20)
+
+
+### Bug Fixes
+
+* **yt:** aab5 ([f02c39a](https://github.com/zainarbani/revanced-integrations/commit/f02c39a7f75adaa95ea11127c0301f92468bc95b))
+
+# [1.12.0-dev.6](https://github.com/zainarbani/revanced-integrations/compare/v1.12.0-dev.5...v1.12.0-dev.6) (2024-06-19)
+
+
+### Bug Fixes
+
+* **yt:** aaa8 ([f1395bf](https://github.com/zainarbani/revanced-integrations/commit/f1395bfd2f6493c593d44020cc4a418123fc5e06))
+
+# [1.12.0-dev.5](https://github.com/zainarbani/revanced-integrations/compare/v1.12.0-dev.4...v1.12.0-dev.5) (2024-06-19)
+
+
+### Bug Fixes
+
+* **yt:** aaa5 ([b0b39fb](https://github.com/zainarbani/revanced-integrations/commit/b0b39fbeda4bcd29ee2d5ae13de47ec98118cb1f))
+
+# [1.12.0-dev.4](https://github.com/zainarbani/revanced-integrations/compare/v1.12.0-dev.3...v1.12.0-dev.4) (2024-06-19)
+
+
+### Bug Fixes
+
+* **yt:** aaa4 ([82700dd](https://github.com/zainarbani/revanced-integrations/commit/82700dd7472644fdb9c595c6638df4b2726517a9))
+
+# [1.12.0-dev.3](https://github.com/zainarbani/revanced-integrations/compare/v1.12.0-dev.2...v1.12.0-dev.3) (2024-06-18)
+
+
+### Bug Fixes
+
+* **yt:** aaa2 ([451bece](https://github.com/zainarbani/revanced-integrations/commit/451bece416993c8faec120b62e31c7ff14f06baf))
+
+# [1.12.0-dev.2](https://github.com/zainarbani/revanced-integrations/compare/v1.12.0-dev.1...v1.12.0-dev.2) (2024-06-18)
+
+
+### Bug Fixes
+
+* **yt:** aaa1 ([8783edc](https://github.com/zainarbani/revanced-integrations/commit/8783edcab430a3169de855883ad70c2869154795))
+
+# [1.12.0-dev.1](https://github.com/zainarbani/revanced-integrations/compare/v1.11.0...v1.12.0-dev.1) (2024-06-18)
+
+
+### Bug Fixes
+
+* **YouTube - Client spoof:** Correctly play more livestreams using Android VR ([#652](https://github.com/zainarbani/revanced-integrations/issues/652)) ([58f8172](https://github.com/zainarbani/revanced-integrations/commit/58f8172b2d30fecd31d541f7470abf61b7e303c7))
+* **YouTube - Hide description components:** Replace `Hide game section` and `Hide music section` with `Hide attributes section` ([#654](https://github.com/zainarbani/revanced-integrations/issues/654)) ([f82dfce](https://github.com/zainarbani/revanced-integrations/commit/f82dfce887bbeccbfdb8e8f8d3d84db6ce28539a))
+* **YouTube - Return YouTube Dislike:** Do not replace view count with dislikes ([5f79196](https://github.com/zainarbani/revanced-integrations/commit/5f7919669250e95fc47c1a2705b352b53aa226f6))
+* **YouTube - Spoof client:** Correctly play as background audio only with Android VR ([9adbc66](https://github.com/zainarbani/revanced-integrations/commit/9adbc66197e8342d3321dc77d151c648be65595b))
+* **YouTube - Spoof client:** Correctly play some live streams when using Android VR ([f74fb17](https://github.com/zainarbani/revanced-integrations/commit/f74fb17a127b1ed8094db23a04e228d8abd05440))
+* **YouTube:** Rename `Minimized playback` to `Remove background playback restrictions` ([#651](https://github.com/zainarbani/revanced-integrations/issues/651)) ([84c50c0](https://github.com/zainarbani/revanced-integrations/commit/84c50c080c2a8c096b7709164cbaec5466a8492c))
+* **yt:** aaa ([c3a8119](https://github.com/zainarbani/revanced-integrations/commit/c3a8119fdfbf1bd5b7af4e4fef4973917c473a12))
+
+
+### Features
+
+* **Boost For Reddit:** Add `Fix /s/ links` patch ([#631](https://github.com/zainarbani/revanced-integrations/issues/631)) ([0c9ad35](https://github.com/zainarbani/revanced-integrations/commit/0c9ad35fc9024efe33c97b51714225c5d5226f59))
+* **YouTube - Comments:** Add `Hide 'Create a Short' button` option ([#656](https://github.com/zainarbani/revanced-integrations/issues/656)) ([064d8e9](https://github.com/zainarbani/revanced-integrations/commit/064d8e99a96167282f63725d33502f251632dcdb))
+* **YouTube - Comments:** Add `Hide Thanks button` and `Hide 'Comments by members' header` options ([#653](https://github.com/zainarbani/revanced-integrations/issues/653)) ([240e805](https://github.com/zainarbani/revanced-integrations/commit/240e805489e3603df026a7a3cf78b939461f5f9e))
+* **YouTube - Miniplayer:** Rename `Tablet mini player` and allow selecting the style of the in-app miniplayer ([#649](https://github.com/zainarbani/revanced-integrations/issues/649)) ([f483af6](https://github.com/zainarbani/revanced-integrations/commit/f483af6d3a2c1003cd566b4bf36fa4a257d1d6d3))
+
+# [1.11.0-dev.7](https://github.com/ReVanced/revanced-integrations/compare/v1.11.0-dev.6...v1.11.0-dev.7) (2024-06-17)
+
+
+### Bug Fixes
+
+* **YouTube - Hide description components:** Replace `Hide game section` and `Hide music section` with `Hide attributes section` ([#654](https://github.com/ReVanced/revanced-integrations/issues/654)) ([f82dfce](https://github.com/ReVanced/revanced-integrations/commit/f82dfce887bbeccbfdb8e8f8d3d84db6ce28539a))
+
+# [1.11.0-dev.6](https://github.com/ReVanced/revanced-integrations/compare/v1.11.0-dev.5...v1.11.0-dev.6) (2024-06-17)
+
+
+### Features
+
+* **YouTube - Comments:** Add `Hide 'Create a Short' button` option ([#656](https://github.com/ReVanced/revanced-integrations/issues/656)) ([064d8e9](https://github.com/ReVanced/revanced-integrations/commit/064d8e99a96167282f63725d33502f251632dcdb))
+
+# [1.11.0-dev.5](https://github.com/ReVanced/revanced-integrations/compare/v1.11.0-dev.4...v1.11.0-dev.5) (2024-06-09)
+
+
+### Features
+
+* **YouTube - Comments:** Add `Hide Thanks button` and `Hide 'Comments by members' header` options ([#653](https://github.com/ReVanced/revanced-integrations/issues/653)) ([240e805](https://github.com/ReVanced/revanced-integrations/commit/240e805489e3603df026a7a3cf78b939461f5f9e))
+
+# [1.11.0-dev.4](https://github.com/ReVanced/revanced-integrations/compare/v1.11.0-dev.3...v1.11.0-dev.4) (2024-06-09)
+
+
+### Bug Fixes
+
+* **YouTube - Client spoof:** Correctly play more livestreams using Android VR ([#652](https://github.com/ReVanced/revanced-integrations/issues/652)) ([58f8172](https://github.com/ReVanced/revanced-integrations/commit/58f8172b2d30fecd31d541f7470abf61b7e303c7))
+
+# [1.11.0-dev.3](https://github.com/ReVanced/revanced-integrations/compare/v1.11.0-dev.2...v1.11.0-dev.3) (2024-06-08)
+
+
+### Features
+
+* **Boost For Reddit:** Add `Fix /s/ links` patch ([#631](https://github.com/ReVanced/revanced-integrations/issues/631)) ([0c9ad35](https://github.com/ReVanced/revanced-integrations/commit/0c9ad35fc9024efe33c97b51714225c5d5226f59))
+
+# [1.11.0-dev.2](https://github.com/ReVanced/revanced-integrations/compare/v1.11.0-dev.1...v1.11.0-dev.2) (2024-06-08)
+
+
+### Bug Fixes
+
+* **YouTube:** Rename `Minimized playback` to `Remove background playback restrictions` ([#651](https://github.com/ReVanced/revanced-integrations/issues/651)) ([84c50c0](https://github.com/ReVanced/revanced-integrations/commit/84c50c080c2a8c096b7709164cbaec5466a8492c))
+
+# [1.11.0-dev.1](https://github.com/ReVanced/revanced-integrations/compare/v1.10.1-dev.3...v1.11.0-dev.1) (2024-06-07)
+
+
+### Features
+
+* **YouTube - Miniplayer:** Rename `Tablet mini player` and allow selecting the style of the in-app miniplayer ([#649](https://github.com/ReVanced/revanced-integrations/issues/649)) ([f483af6](https://github.com/ReVanced/revanced-integrations/commit/f483af6d3a2c1003cd566b4bf36fa4a257d1d6d3))
+
+## [1.10.1-dev.3](https://github.com/ReVanced/revanced-integrations/compare/v1.10.1-dev.2...v1.10.1-dev.3) (2024-06-07)
+
+
+### Bug Fixes
+
+* **YouTube - Spoof client:** Correctly play as background audio only with Android VR ([9adbc66](https://github.com/ReVanced/revanced-integrations/commit/9adbc66197e8342d3321dc77d151c648be65595b))
+
+## [1.10.1-dev.2](https://github.com/ReVanced/revanced-integrations/compare/v1.10.1-dev.1...v1.10.1-dev.2) (2024-06-06)
+
+
+### Bug Fixes
+
+* **YouTube - Return YouTube Dislike:** Do not replace view count with dislikes ([5f79196](https://github.com/ReVanced/revanced-integrations/commit/5f7919669250e95fc47c1a2705b352b53aa226f6))
+
+## [1.10.1-dev.1](https://github.com/ReVanced/revanced-integrations/compare/v1.10.0...v1.10.1-dev.1) (2024-06-06)
+
+
+### Bug Fixes
+
+* **YouTube - Spoof client:** Correctly play some live streams when using Android VR ([f74fb17](https://github.com/ReVanced/revanced-integrations/commit/f74fb17a127b1ed8094db23a04e228d8abd05440))
+
 # [1.10.0](https://github.com/ReVanced/revanced-integrations/compare/v1.9.2...v1.10.0) (2024-06-02)
 
 

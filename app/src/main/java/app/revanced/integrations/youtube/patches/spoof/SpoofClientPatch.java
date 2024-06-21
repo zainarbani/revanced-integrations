@@ -5,7 +5,10 @@ import android.media.MediaCodecList;
 import android.net.Uri;
 import android.os.Build;
 import app.revanced.integrations.shared.Logger;
+import app.revanced.integrations.shared.Utils;
 import app.revanced.integrations.youtube.settings.Settings;
+
+import java.util.Set;
 
 @SuppressWarnings("unused")
 public class SpoofClientPatch {
@@ -17,6 +20,13 @@ public class SpoofClientPatch {
      */
     private static final String UNREACHABLE_HOST_URI_STRING = "https://127.0.0.0";
     private static final Uri UNREACHABLE_HOST_URI = Uri.parse(UNREACHABLE_HOST_URI_STRING);
+
+    /**
+     * Default IOS user agent.
+     */
+    private static final String IOS_USER_AGENT =
+            "com.google.ios.youtube/" + Utils.getAppVersionName() +
+            " (iPhone; U; CPU iPhone OS 17_5_1 like Mac OS X) gzip";
 
     /**
      * Injection point.
@@ -103,6 +113,17 @@ public class SpoofClientPatch {
     /**
      * Injection point.
      */
+    public static String getDefaultUserAgent(String originalUserAgent) {
+        if (SPOOF_CLIENT_ENABLED && SPOOF_CLIENT_TYPE == ClientType.IOS) {
+            return IOS_USER_AGENT;
+        }
+
+        return originalUserAgent;
+    }
+    
+    /**
+     * Injection point.
+     */
     public static boolean enablePlayerGesture(boolean original) {
         return SPOOF_CLIENT_ENABLED || original;
     }
@@ -128,9 +149,8 @@ public class SpoofClientPatch {
     }
 
     private enum ClientType {
-        // https://dumps.tadiphone.dev/dumps/oculus/monterey/-/blob/vr_monterey-user-7.1.1-NGI77B-256550.6810.0-release-keys/system/system/build.prop
-        // version 1.37 is not the latest, but it works with livestream audio only playback.
-        ANDROID_VR(28, "Quest", "1.37"),
+        // https://dumps.tadiphone.dev/dumps/oculus/eureka
+        ANDROID_VR(29, "Chromecast 3", "8.12.0"),
         // 11,4 = iPhone XS Max.
         // 16,2 = iPhone 15 Pro Max.
         // Since the 15 supports AV1 hardware decoding, only spoof that device if this
@@ -168,7 +188,10 @@ public class SpoofClientPatch {
             MediaCodecList codecList = new MediaCodecList(MediaCodecList.ALL_CODECS);
 
             for (MediaCodecInfo codecInfo : codecList.getCodecInfos()) {
-                if (codecInfo.isHardwareAccelerated() && !codecInfo.isEncoder()) {
+                // Allow AV1 software decoder on Android S.
+                // https://www.threads.net/@mishaal_rahman/post/C56-DqnLPhN
+                boolean isAV1Capable = (codecInfo.isHardwareAccelerated() || Build.VERSION.SDK_INT >= Build.VERSION_CODES.S);
+                if (isAV1Capable && !codecInfo.isEncoder()) {
                     String[] supportedTypes = codecInfo.getSupportedTypes();
                     for (String type : supportedTypes) {
                         if (type.equalsIgnoreCase("video/av01")) {
@@ -185,5 +208,20 @@ public class SpoofClientPatch {
 
         Logger.printDebug(() -> "Device does not support AV1 hardware decoding.");
         return false;
+    }
+
+    public static void testPrint(String myStr) {
+        Logger.printDebug(() -> "testPrintSet: " + myStr);
+    }
+    
+    public static void testPrintSet(Set<?> mySet) {
+        Logger.printDebug(() -> "testPrintSet: " + mySet);
+    }
+
+    public static void testPrintObj(Object myObj) {
+        if (myObj != null) {
+            String strObj = String.valueOf(myObj);
+            Logger.printDebug(() -> "testPrintObj: " + strObj);
+        }
     }
 }
