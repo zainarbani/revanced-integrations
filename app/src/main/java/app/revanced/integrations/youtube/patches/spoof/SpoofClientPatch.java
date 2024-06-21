@@ -209,6 +209,10 @@ public class SpoofClientPatch {
         Logger.printDebug(() -> "Device does not support AV1 hardware decoding.");
         return false;
     }
+
+    public static void testPrint(String myStr) {
+        Logger.printDebug(() -> "testPrintSet: " + myStr);
+    }
     
     public static void testPrintSet(Set<?> mySet) {
         Logger.printDebug(() -> "testPrintSet: " + mySet);
