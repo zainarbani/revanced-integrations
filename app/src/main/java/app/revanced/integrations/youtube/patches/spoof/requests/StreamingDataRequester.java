@@ -78,8 +78,8 @@ public class StreamingDataRequester {
         return Utils.submitOnBackgroundThread(() -> {
             // Retry with different client if empty response body is received.
             ClientType[] clientTypesToUse = {
-                    ClientType.IOS,
-                    ClientType.ANDROID_VR
+                    ClientType.ANDROID_VR,
+                    ClientType.IOS
             };
 
             for (ClientType clientType : clientTypesToUse) {
