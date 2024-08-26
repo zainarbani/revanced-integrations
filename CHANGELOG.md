@@ -1,3 +1,17 @@
+# [1.14.0-dev.1](https://github.com/zainarbani/revanced-integrations/compare/v1.13.1...v1.14.0-dev.1) (2024-08-26)
+
+
+### Bug Fixes
+
+* **YouTube - Hide layout components:** Hide new kind of community post ([#678](https://github.com/zainarbani/revanced-integrations/issues/678)) ([6be257a](https://github.com/zainarbani/revanced-integrations/commit/6be257a7a66aaa67c187d71530d6773c06a41993))
+* **YouTube - SponsorBlock:** Handle if the user enters an invalid number into any SB settings ([01f084d](https://github.com/zainarbani/revanced-integrations/commit/01f084d87af6a2b1bc0581b1adbb6dfdfff75d82))
+* **YouTube - Spoof Client:** Fix playback by replace streaming data ([d498d79](https://github.com/zainarbani/revanced-integrations/commit/d498d79597dd981fca477b6a4a3df9dcd1b3845a))
+
+
+### Features
+
+* **YouTube - Spoof client:** Allow forcing AVC codec with iOS ([#679](https://github.com/zainarbani/revanced-integrations/issues/679)) ([2c471f3](https://github.com/zainarbani/revanced-integrations/commit/2c471f39c229af940b7c0890a228bdf01bdc8c39))
+
 # [1.14.0-dev.1](https://github.com/ReVanced/revanced-integrations/compare/v1.13.1-dev.2...v1.14.0-dev.1) (2024-08-22)
 
 
