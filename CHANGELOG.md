@@ -1,3 +1,18 @@
+# [1.14.0-dev.3](https://github.com/zainarbani/revanced-integrations/compare/v1.14.0-dev.2...v1.14.0-dev.3) (2024-08-27)
+
+
+### Bug Fixes
+
+* Close byte array stream, do not show toast if all streams return 0 byte content ([86dd7de](https://github.com/zainarbani/revanced-integrations/commit/86dd7de63e9b80e211887900d75d99559b7aa1a9))
+* Comments ([8b552af](https://github.com/zainarbani/revanced-integrations/commit/8b552af21758486123287aa051d32825dd5e2704))
+* Comments, warnings ([5d83b80](https://github.com/zainarbani/revanced-integrations/commit/5d83b802aba9152ad943731bf5173b21ba46f8d7))
+* Don't override player responses when all spoofing is off ([f0284be](https://github.com/zainarbani/revanced-integrations/commit/f0284be47791d8da21e4d60ce70824c98c429510))
+* If debug is enabled, then use a random client order ([7ef5993](https://github.com/zainarbani/revanced-integrations/commit/7ef599397c436c8bed93b9b4a5d544fffb149c2c))
+* Remove client type spoofing and use only stream replacement ([bff5d49](https://github.com/zainarbani/revanced-integrations/commit/bff5d4982144682fd1ef4c25d7d471c363cda21e))
+* Remove debug code ([0f92ed5](https://github.com/zainarbani/revanced-integrations/commit/0f92ed5c9e99efde39be15fda56ea72d27e28e65))
+* Remove unused setting ([4a76bf5](https://github.com/zainarbani/revanced-integrations/commit/4a76bf552c2d1cbfe8ec33da932eded4eda951b5))
+* Show error toast only if last attempt fails. Add more logging. ([d815df0](https://github.com/zainarbani/revanced-integrations/commit/d815df0509fc5b9597f03bf0367c056d459be44a))
+
 # [1.14.0-dev.2](https://github.com/zainarbani/revanced-integrations/compare/v1.14.0-dev.1...v1.14.0-dev.2) (2024-08-26)
 
 
