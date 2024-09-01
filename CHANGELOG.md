@@ -1,3 +1,11 @@
+# [1.14.0-dev.4](https://github.com/zainarbani/revanced-integrations/compare/v1.14.0-dev.3...v1.14.0-dev.4) (2024-09-01)
+
+
+### Bug Fixes
+
+* Can use non experimental parent class type ([e66ac9d](https://github.com/zainarbani/revanced-integrations/commit/e66ac9d0193d848b8d3a3c0230e1c823c0c30446))
+* Do not fetch Shorts streams until the Short is opened ([026de40](https://github.com/zainarbani/revanced-integrations/commit/026de403b24358bf4db3628dd2ddf02a8c094028))
+
 # [1.14.0-dev.3](https://github.com/zainarbani/revanced-integrations/compare/v1.14.0-dev.2...v1.14.0-dev.3) (2024-08-27)
 
 
