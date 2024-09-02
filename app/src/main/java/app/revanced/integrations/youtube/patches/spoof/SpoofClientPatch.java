@@ -56,6 +56,10 @@ public class SpoofClientPatch {
         return SPOOF_CLIENT;
     }
 
+    public static void testPrint(String str) {
+        Logger.printDebug(() -> "testPrint: " + str);
+    }
+
     /**
      * Injection point.
      */
