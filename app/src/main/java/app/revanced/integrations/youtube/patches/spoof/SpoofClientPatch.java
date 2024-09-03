@@ -90,8 +90,7 @@ public class SpoofClientPatch {
             }
 
             final File testFile = new File(testFolder, "byteData");
-            try {
-                FileOutputStream fos = new FileOutputStream(testFile.getAbsolutePath());
+            try (FileOutputStream fos = new FileOutputStream(testFile)) {
                 fos.write(byteData);
                 fos.flush();
             } catch (IOException ex) {
