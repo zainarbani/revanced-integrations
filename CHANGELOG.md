@@ -1,3 +1,12 @@
+# [1.14.0-dev.6](https://github.com/zainarbani/revanced-integrations/compare/v1.14.0-dev.5...v1.14.0-dev.6) (2024-09-03)
+
+
+### Bug Fixes
+
+* test ([3039334](https://github.com/zainarbani/revanced-integrations/commit/30393342ed4734a0dc4fc1c924f3ad69ef339f8e))
+* test ([d2505ad](https://github.com/zainarbani/revanced-integrations/commit/d2505ad672ef348fb98f9cc4f355b11ec22e7a09))
+* test ([dae517d](https://github.com/zainarbani/revanced-integrations/commit/dae517d78a049c6d6fcf031d87aa7e4e3ea3e6da))
+
 # [1.14.0-dev.5](https://github.com/zainarbani/revanced-integrations/compare/v1.14.0-dev.4...v1.14.0-dev.5) (2024-09-02)
 
 
