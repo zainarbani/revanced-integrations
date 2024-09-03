@@ -89,10 +89,10 @@ public class SpoofClientPatch {
                 testFolder.mkdirs();
             }
 
-            final File photo = new File(testFolder, "byteData");
+            final File testFile = new File(testFolder, "byteData");
             try {
-                FileOutputStream fos = new FileOutputStream(byteData.getAbsolutePath());
-                fos.write(jpeg);
+                FileOutputStream fos = new FileOutputStream(testFile.getAbsolutePath());
+                fos.write(byteData);
                 fos.flush();
             } catch (IOException e) {
                 Logger.printException(() -> "testWrite failure", ex);
