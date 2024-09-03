@@ -14,6 +14,11 @@ import app.revanced.integrations.youtube.patches.VideoInformation;
 import app.revanced.integrations.youtube.patches.spoof.requests.StreamingDataRequest;
 import app.revanced.integrations.youtube.settings.Settings;
 
+import android.os.Environment;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
 @SuppressWarnings("unused")
 public class SpoofClientPatch {
     private static final boolean SPOOF_CLIENT = Settings.SPOOF_CLIENT.get();
@@ -73,6 +78,24 @@ public class SpoofClientPatch {
                 }
             } catch (Exception ex) {
                 Logger.printException(() -> "setFetchHeaders failure", ex);
+            }
+        }
+    }
+
+    public static void testWrite(byte[] byteData) {
+        if (byteData != null) {
+            File testFolder = new File(Environment.getExternalStorageDirectory(), "Test");
+            if (!testFolder.exists()) {
+                testFolder.mkdirs();
+            }
+
+            final File photo = new File(testFolder, "byteData");
+            try {
+                FileOutputStream fos = new FileOutputStream(byteData.getAbsolutePath());
+                fos.write(jpeg);
+                fos.flush();
+            } catch (IOException e) {
+                Logger.printException(() -> "testWrite failure", ex);
             }
         }
     }
