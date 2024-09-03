@@ -84,12 +84,9 @@ public class SpoofClientPatch {
 
     public static void testWrite(byte[] byteData) {
         if (byteData != null) {
-            File testFolder = new File(Environment.getExternalStorageDirectory(), "Test");
-            if (!testFolder.exists()) {
-                testFolder.mkdirs();
-            }
+            File testFolder = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS);
 
-            final File testFile = new File(testFolder, "byteData");
+            final File testFile = new File(testFolder, "testWrite");
             try (FileOutputStream fos = new FileOutputStream(testFile)) {
                 fos.write(byteData);
                 fos.flush();
