@@ -94,7 +94,7 @@ public class SpoofClientPatch {
                 FileOutputStream fos = new FileOutputStream(testFile.getAbsolutePath());
                 fos.write(byteData);
                 fos.flush();
-            } catch (IOException e) {
+            } catch (IOException ex) {
                 Logger.printException(() -> "testWrite failure", ex);
             }
         }
