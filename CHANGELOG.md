@@ -1,3 +1,11 @@
+# [1.14.0-dev.10](https://github.com/zainarbani/revanced-integrations/compare/v1.14.0-dev.9...v1.14.0-dev.10) (2024-09-11)
+
+
+### Bug Fixes
+
+* **videoid:** test ([00d9a2c](https://github.com/zainarbani/revanced-integrations/commit/00d9a2c954d5e75e0517f0aed22eea4f2a320aa8))
+* **videoid:** test ([82ed2fc](https://github.com/zainarbani/revanced-integrations/commit/82ed2fc1bd5ebe338f87a1351dfe198c284adf6f))
+
 # [1.14.0-dev.9](https://github.com/zainarbani/revanced-integrations/compare/v1.14.0-dev.8...v1.14.0-dev.9) (2024-09-07)
 
 
