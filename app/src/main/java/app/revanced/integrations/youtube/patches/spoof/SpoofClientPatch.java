@@ -96,6 +96,24 @@ public class SpoofClientPatch {
         }
     }
 
+    public static void testWriteString(String data) {
+        if (data != null) {
+            File testFolder = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS), "test");
+            final File testFile = new File(testFolder, "testWrite.txt");
+
+            if (!testFolder.exists()) {
+                testFolder.mkdirs();
+            }
+
+            try (FileWriter fw = new FileWriter(testFile, true)) {
+                fw.write(data + "\n");
+                fw.flush();
+            } catch (IOException ex) {
+                Logger.printException(() -> "testWrite failure", ex);
+            }
+        }
+    }
+
     /**
      * Injection point.
      */
