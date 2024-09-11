@@ -16,6 +16,7 @@ import app.revanced.integrations.youtube.settings.Settings;
 
 import android.os.Environment;
 import java.io.File;
+import java.io.FileWriter;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
