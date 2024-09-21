@@ -1,3 +1,10 @@
+## [1.14.3-dev.1](https://github.com/zainarbani/revanced-integrations/compare/v1.14.2...v1.14.3-dev.1) (2024-09-21)
+
+
+### Bug Fixes
+
+* **YouTube - Seekbar:** Hide `pull-up` guide when precise seeking is disabled ([a38c3b3](https://github.com/zainarbani/revanced-integrations/commit/a38c3b3558d8f8b361f72288ee1e8d2d4a9e7f23))
+
 ## [1.14.1](https://github.com/ReVanced/revanced-integrations/compare/v1.14.0...v1.14.1) (2024-09-18)
 
 
