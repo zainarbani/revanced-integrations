@@ -1,3 +1,39 @@
+# [1.17.0-dev.1](https://github.com/zainarbani/revanced-integrations/compare/v1.16.1...v1.17.0-dev.1) (2024-10-04)
+
+
+### Bug Fixes
+
+* **YouTube - Check environment patch:** Allow adb installs even if patched more than 30 minutes ago ([5adf8bd](https://github.com/zainarbani/revanced-integrations/commit/5adf8bdd67c67502f5bc2912247e1eb1cec8a33d))
+* **YouTube - Check environment patch:** Show if patched apk is too old, if the install source is not Manager or ADB ([18048f3](https://github.com/zainarbani/revanced-integrations/commit/18048f33243c4a877cf8b055d89fc04c4b963e0c))
+* **YouTube - Check environment patch:** Use app install/update time instead of current time ([#687](https://github.com/zainarbani/revanced-integrations/issues/687)) ([b0d82b0](https://github.com/zainarbani/revanced-integrations/commit/b0d82b016eeacca324b906037d1857b81f577b53))
+* **YouTube - Check environment:** Only use fields available since Android 8 ([#693](https://github.com/zainarbani/revanced-integrations/issues/693)) ([c0829c3](https://github.com/zainarbani/revanced-integrations/commit/c0829c3915b20f1ece5deac137d423c75f43074f))
+* **YouTube - Check watch history domain name resolution:** Do not show warning if network connection is flaky ([#702](https://github.com/zainarbani/revanced-integrations/issues/702)) ([80482df](https://github.com/zainarbani/revanced-integrations/commit/80482df3fae05cd5bd9e3b430022f07cf118565c))
+* **YouTube - GmsCore support:** Show an error toast if GmsCore is included with root mounted installation ([#686](https://github.com/zainarbani/revanced-integrations/issues/686)) ([a4848be](https://github.com/zainarbani/revanced-integrations/commit/a4848be653fae3e03972254fe48a7b76e561e5a6))
+* **YouTube - Hide layout components:** Hide new kind of community post ([#678](https://github.com/zainarbani/revanced-integrations/issues/678)) ([6be257a](https://github.com/zainarbani/revanced-integrations/commit/6be257a7a66aaa67c187d71530d6773c06a41993))
+* **YouTube - Hide layout components:** Hide new kind of community posts ([#695](https://github.com/zainarbani/revanced-integrations/issues/695)) ([b384926](https://github.com/zainarbani/revanced-integrations/commit/b3849267a7e1a90bfdb129f0e3abd9f6ecf7234e))
+* **YouTube - Return YouTube Dislike:** Show correct value when swiping back to prior Short and disliking ([2eb5e3a](https://github.com/zainarbani/revanced-integrations/commit/2eb5e3afebe374a86e9da521d6441402130f0fd0))
+* **YouTube - ReturnYouTubeDislike:** Show estimated like count for videos with hidden likes ([#684](https://github.com/zainarbani/revanced-integrations/issues/684)) ([27d2b60](https://github.com/zainarbani/revanced-integrations/commit/27d2b60444ff5bcc84a1889e2cacf1750532b6ad))
+* **YouTube - SponsorBlock:** Add summary text to 'view my segments' button ([0f5dfb4](https://github.com/zainarbani/revanced-integrations/commit/0f5dfb4e76337da7e086a08b59aed7881de56a31))
+* **YouTube - SponsorBlock:** Handle if the user enters an invalid number into any SB settings ([01f084d](https://github.com/zainarbani/revanced-integrations/commit/01f084d87af6a2b1bc0581b1adbb6dfdfff75d82))
+* **YouTube - Spoof video streams:** Change default client type to Android VR ([a2e8bbb](https://github.com/zainarbani/revanced-integrations/commit/a2e8bbb422eb55b955b954b095fcdb9813cb3a8c))
+* **YouTube - Spoof video streams:** Change default client type to Android VR ([#697](https://github.com/zainarbani/revanced-integrations/issues/697)) ([d06706d](https://github.com/zainarbani/revanced-integrations/commit/d06706d717310d4b0926a10253611f674f95e3f6))
+* **YouTube - Spoof video streams:** Handle app left open for a long time ([#709](https://github.com/zainarbani/revanced-integrations/issues/709)) ([ea4b073](https://github.com/zainarbani/revanced-integrations/commit/ea4b073f5c21b0fea4e3922488e8bbf69cfcb421))
+* **YouTube:** Fix issues related to playback by replace streaming data ([#680](https://github.com/zainarbani/revanced-integrations/issues/680)) ([0468235](https://github.com/zainarbani/revanced-integrations/commit/04682353af9831d312a82264a8944268c7901db7))
+* **YouTube:** Show video chapter titles without clipping when overlay buttons are enabled ([#699](https://github.com/zainarbani/revanced-integrations/issues/699)) ([325cc17](https://github.com/zainarbani/revanced-integrations/commit/325cc179001bb79366f4ed6a5f84f717fbff66b6))
+
+
+### Features
+
+* Add `Check environment` patch ([#683](https://github.com/zainarbani/revanced-integrations/issues/683)) ([e856455](https://github.com/zainarbani/revanced-integrations/commit/e85645528336162e16acf89f7b9f029762972c72))
+* Merge branch `feat/yt-bump` to `dev` ([48a7ac4](https://github.com/zainarbani/revanced-integrations/commit/48a7ac45086b9d5cb222eb55a06a027a99a8dfd2))
+* **YouTube - Disable precise seeking gesture:** Hide "pull up" label that shows up when swiping ([#696](https://github.com/zainarbani/revanced-integrations/issues/696)) ([0b9afd0](https://github.com/zainarbani/revanced-integrations/commit/0b9afd022dbf622478bb931124ac41a969610c64))
+* **YouTube - Hide Shorts components:** Add `Hide save music`, `Hide stickers` ([#703](https://github.com/zainarbani/revanced-integrations/issues/703)) ([a87456e](https://github.com/zainarbani/revanced-integrations/commit/a87456e49995e2ed5f4788e71db8f2387bc241f9))
+* **YouTube - Hide Shorts components:** Add option to hide like fountain ([#708](https://github.com/zainarbani/revanced-integrations/issues/708)) ([16c3ef7](https://github.com/zainarbani/revanced-integrations/commit/16c3ef7ee5a32ec22db6da876dcf19fc02bc9aac))
+* **YouTube - Hide Shorts components:** Hide 'Use this sound' button ([#691](https://github.com/zainarbani/revanced-integrations/issues/691)) ([6f3d2ff](https://github.com/zainarbani/revanced-integrations/commit/6f3d2ffb0d65ec819038050dfabe1432f87ce360))
+* **YouTube - Keyword filter:** Add syntax to match whole keywords and not substrings ([#681](https://github.com/zainarbani/revanced-integrations/issues/681)) ([5314dd9](https://github.com/zainarbani/revanced-integrations/commit/5314dd90d16dc8565331c4cddce114956d85a173))
+* **YouTube - Spoof client:** Allow forcing AVC codec with iOS ([#679](https://github.com/zainarbani/revanced-integrations/issues/679)) ([2c471f3](https://github.com/zainarbani/revanced-integrations/commit/2c471f39c229af940b7c0890a228bdf01bdc8c39))
+* **YouTube:** Add donation link to settings about screen ([#688](https://github.com/zainarbani/revanced-integrations/issues/688)) ([b816c45](https://github.com/zainarbani/revanced-integrations/commit/b816c45838769c6b3df7147d091696cb3ee9789e))
+
 # [1.16.0-dev.2](https://github.com/ReVanced/revanced-integrations/compare/v1.16.0-dev.1...v1.16.0-dev.2) (2024-10-03)
 
 
