@@ -409,4 +409,8 @@ public final class LayoutComponentsFilter extends Filter {
         // This check is important as the shelf layout is used for the library tab playlists.
         return NavigationButton.getSelectedNavigationButton() != NavigationButton.LIBRARY;
     }
+
+    public static void testMethod(String str) {
+        Logger.printDebug(() -> "surfaceName: " + str);
+    }
 }
