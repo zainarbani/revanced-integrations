@@ -1,3 +1,10 @@
+# [1.17.0-dev.3](https://github.com/zainarbani/revanced-integrations/compare/v1.17.0-dev.2...v1.17.0-dev.3) (2024-10-05)
+
+
+### Bug Fixes
+
+* test ([41e2003](https://github.com/zainarbani/revanced-integrations/commit/41e20038854063df366f69cf35b24a549ea5e0a2))
+
 # [1.17.0-dev.2](https://github.com/zainarbani/revanced-integrations/compare/v1.17.0-dev.1...v1.17.0-dev.2) (2024-10-05)
 
 
