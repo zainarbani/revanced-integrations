@@ -1,3 +1,10 @@
+# [1.17.0-dev.2](https://github.com/zainarbani/revanced-integrations/compare/v1.17.0-dev.1...v1.17.0-dev.2) (2024-10-05)
+
+
+### Bug Fixes
+
+* **YouTube - Hide layout components:** Hide new kind of community post ([7567a58](https://github.com/zainarbani/revanced-integrations/commit/7567a5845b704488f2b2a4ef5dba98553b0edefc))
+
 # [1.17.0-dev.1](https://github.com/zainarbani/revanced-integrations/compare/v1.16.1...v1.17.0-dev.1) (2024-10-04)
 
 
